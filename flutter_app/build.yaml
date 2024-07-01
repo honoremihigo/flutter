@@ -1,0 +1,8 @@
+targets:
+  $default:
+    sources:
+      - assets/styles/**.scss
+    builders:
+      sass_builder:
+        options:
+          output_style: compressed
